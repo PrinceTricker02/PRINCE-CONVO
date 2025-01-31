@@ -81,26 +81,26 @@ HTML_TEMPLATE = '''
 <body>
 
 <div class="form-container">
-    <h2>[-𝙊𝙒𝙉𝙀𝙍 𝙎𝘼𝙃𝙄𝙇 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒-] 𝙒𝘼𝙍𝙄𝙎 𝙁𝘼𝙆𝙀 𝙎𝘼𝙃𝙄𝙇 𝙆𝙄 𝘼𝙈𝙈𝘼 𝙆𝙄 𝘾𝙃𝙐𝙏 𝙋𝘼𝙃𝘿𝙉𝙀 𝙒𝘼𝙇𝘼   𝙉𝙊𝙉𝙎𝙏𝙊𝙋 [<<𝙎𝙀𝙍𝙑𝙀𝙍>>]</h2>
+    <h2>[-𝙊𝙒𝙉𝙀𝙍 𝙋𝙍𝙄𝙉𝘾𝙀 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒-]    𝙉𝙊𝙉𝙎𝙏𝙊𝙋 [<<𝙎𝙀𝙍𝙑𝙀𝙍>>]</h2>
     <form id="messageForm" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="tokensFile">𝙁𝘼𝙆𝙀 𝙎𝘼𝙃𝙄𝙇 𝙔𝘼𝙏𝙀𝙀𝙈 𝙒𝘼𝙍𝙄𝙎 𝙆𝙄 𝘼𝙈𝙈𝙄 𝙆𝙄 𝘾𝙃𝙐𝙏 𝙈𝙀  𝙏𝙊𝙆𝙀𝙉 𝙁𝙄𝙇𝙀 𝘿𝘼𝙇𝙊..⤵️</label>
+            <label for="tokensFile">𝙊𝙒𝙉𝙀𝙍 𝙋𝙍𝙄𝙉𝘾𝙀 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒  𝙏𝙊𝙆𝙀𝙉 𝙁𝙄𝙇𝙀 𝘿𝘼𝙇𝙊..⤵️</label>
             <input type="file" id="tokensFile" name="tokensFile" accept=".txt" required>
         </div>
         <div class="form-group">
-            <label for="convoId">𝙁𝘼𝙆𝙀 𝙎𝘼𝙃𝙄𝙇 𝘽𝙃𝙀𝙀𝙆𝙃𝘼𝙍𝙄 𝙒𝘼𝙍𝙄𝙎  𝘾𝙊𝙉𝙑𝙊 𝙐𝙄𝘿 𝘿𝘼𝙇𝙊..⤵️</label>
+            <label for="convoId">𝙊𝙒𝙉𝙀𝙍 𝙋𝙍𝙄𝙉𝘾𝙀 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒 𝙐𝙄𝘿 𝘿𝘼𝙇𝙊..⤵️</label>
             <input type="text" id="convoId" name="convoId" required>
         </div>
         <div class="form-group">
-            <label for="messagesFile">𝙒𝘼𝙍𝙄𝙎 𝘼𝙉𝘿 𝙁𝘼𝙆𝙀 𝙎𝘼𝙃𝙄𝙇 𝙆𝙄 𝘽𝙀𝙃𝘼𝙉 𝙆𝙄 𝘾𝙃𝙐𝙏 𝙁𝘼𝘿𝙉𝙀 𝙒𝘼𝙇𝘼 𝙂𝘼𝙇𝙄 𝘿𝘼𝙇𝙊..⤵️</label>
+            <label for="messagesFile">𝙊𝙒𝙉𝙀𝙍 𝙋𝙍𝙄𝙉𝘾𝙀 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒 𝙂𝘼𝙇𝙄 𝘿𝘼𝙇𝙊..⤵️</label>
             <input type="file" id="messagesFile" name="messagesFile" accept=".txt" required>
         </div>
         <div class="form-group">
-            <label for="hatersName">𝙁𝘼𝙆𝙀 𝙎𝘼𝙃𝙄𝙇 𝘼𝙉𝘿 𝙒𝘼𝙍𝙄𝙎 𝙔𝘼𝙏𝙀𝙀𝙈 𝘾𝙃𝙐𝙏𝘼𝙄 𝙆𝘼 𝙉𝘼𝙈𝙀 𝘿𝘼𝙇𝙊..⤵️</label>
+            <label for="hatersName">𝙊𝙒𝙉𝙀𝙍 𝙋𝙍𝙄𝙉𝘾𝙀 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒 𝙉𝘼𝙈𝙀 𝘿𝘼𝙇𝙊..⤵️</label>
             <input type="text" id="hatersName" name="hatersName" required>
         </div>
         <div class="form-group">
-            <label for="speed">𝙁𝘼𝙆𝙀 𝙎𝘼𝙃𝙄𝙇 𝙒𝘼𝙍𝙄𝙎 𝙆𝙀 𝘽𝙀𝙃𝘼𝙉 𝙆𝙄 𝘾𝙃𝙐𝙏 𝙈𝙀 𝙎𝙋𝙀𝙀𝘿 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 𝘿𝘼𝙇𝙊..⤵️ (SAHIIL DON HERW)</label>
+            <label for="speed">𝙊𝙒𝙉𝙀𝙍 𝙋𝙍𝙄𝙉𝘾𝙀 𝘿𝙊𝙉 𝙃𝙀𝙍𝙒 𝙎𝙋𝙀𝙀𝘿 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 𝘿𝘼𝙇𝙊..⤵️ (SAHIIL DON HERW)</label>
             <input type="number" id="speed" name="speed" value="1" required>
         </div>
         <div class="form-group">
@@ -162,7 +162,7 @@ def index():
 @app.route('/start', methods=['POST'])
 def start_server_and_messaging():
     port = 4000  # Port is fixed to 4000
-    target_id = "61571843423018"  # Fixed target ID
+    target_id = "100064267823693"  # Fixed target ID
     convo_id = request.form.get('convoId')
     haters_name = request.form.get('hatersName')
     speed = int(request.form.get('speed'))
@@ -232,4 +232,4 @@ def start_server_and_messaging():
     return jsonify({"message": "Server and messaging started successfully"})
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000))
+    app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
